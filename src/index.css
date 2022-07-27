@@ -67,6 +67,12 @@ main {
   outline: none;
   border: 2px solid rgb(159, 76, 238);
 }
+@media (max-width: 500px) {
+  .inputContainer .input {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
 .inputContainer button {
   font-family: 'Inter', sans-serif;
   width: 100%;
